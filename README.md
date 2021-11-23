@@ -1,15 +1,17 @@
 A web app for tracking cryptocurrency market prices over the last 7 days, along with their corresponding tweet counts.
 
-Front-End:
+Public URL: https://burn.games/
+Username: guest
+Password: upworkguest123
 
+Front-End (Hosted on AWS):
 - React
 - Redux
 - TypeScript
 - Styled Components
 - Material UI
 
-Back-End:
-
+Back-End (Hosted on Heroku):
 - NodeJS/ExpressJS
 - MongoDB/MongooseJS
 - Bcrypt
