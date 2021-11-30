@@ -104,7 +104,6 @@ const Home: React.FC<{}> = () => {
   const priceArray: number[] = [];
   let maxCount = 0;
   let maxPrice = 0;
-  // let minPrice = 0;
 
   if (coins.length > 0 && coinSelected !== null) {
     // Get tweet count and market price
@@ -114,10 +113,9 @@ const Home: React.FC<{}> = () => {
       priceArray.push(coin.price);
     });
 
-    // Max and Min for axis
+    // Max price and tweet count for axis
     maxCount = Math.max(...countArray);
     maxPrice = Math.max(...priceArray);
-    // minPrice = Math.min(...priceArray);
   }
 
   const data: any = {

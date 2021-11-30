@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useAppDispatch } from "../app/hooks";
 import styled from "styled-components";
 import useInput from "../hooks/use-login-input";
-import { isAuth } from "../features/user/userSlice";
+import { isAuth } from "../store/user/userSlice";
 import { Color } from "../helper";
 import { MediumHeaderTextTwo } from "../helper/Font";
 import { login } from "../helper/API";

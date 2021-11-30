@@ -3,7 +3,7 @@ import styled from "styled-components";
 import AddIcon from "@mui/icons-material/Add";
 import Button from "@mui/material/Button";
 import { useDispatch } from "react-redux";
-import { toggleModal } from "../features/data/dataSlice";
+import { toggleModal } from "../store/data/dataSlice";
 
 const Wrapper = styled.div`
   padding: 0 9.9%;

@@ -3,7 +3,7 @@ import { useAppSelector, useAppDispatch } from "../app/hooks";
 import styled from "styled-components";
 import ListOption from "../models/list";
 import { addNewCoin, tickerSearch, refreshCoinList } from "../helper/API";
-import { setCoins, toggleModal } from "../features/data/dataSlice";
+import { setCoins, toggleModal } from "../store/data/dataSlice";
 import useInputBasic from "../hooks/use-input-basic";
 import Modal from "@mui/material/Modal";
 import TextField from "@mui/material/TextField";

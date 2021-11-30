@@ -2,7 +2,7 @@ import React from "react";
 import { useAppDispatch } from "../app/hooks";
 import styled from "styled-components";
 import Button from "@mui/material/Button";
-import { setCoinSelected } from "../features/data/dataSlice";
+import { setCoinSelected } from "../store/data/dataSlice";
 
 interface WrapperStyle {
   selected: boolean;
